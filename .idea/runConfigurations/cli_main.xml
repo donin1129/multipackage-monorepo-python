@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="cli.main" type="UvRunConfigurationType" factoryName="UvRunConfigurationType">
+    <option name="args">
+      <list />
+    </option>
+    <option name="checkSync" value="true" />
+    <option name="env">
+      <map />
+    </option>
+    <option name="runType" value="MODULE" />
+    <option name="scriptOrModule" value="cli.main" />
+    <option name="uvArgs">
+      <list>
+        <option value="--package" />
+        <option value="cli" />
+      </list>
+    </option>
+    <option name="uvSdkKey" value="uv (multipackage-monorepo-experiment)" />
+    <method v="2" />
+  </configuration>
+</component>

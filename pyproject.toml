@@ -1,0 +1,16 @@
+[project]
+name = "multipackage-monorepo-experiment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Zhetao Dong", email = "zhetao.dong@siemens.com" }
+]
+requires-python = ">=3.12"
+
+[tool.uv.workspace]
+members = [
+    "packages/common",
+    "packages/cli",
+    "packages/api",
+]
